@@ -1,13 +1,8 @@
-.ui.relaxed.divided.list {
-  max-width: 40%;
-  float: right;
-}
-.video-item {
-  max-width: 460px;
+.ui > .video-item.item {
   cursor: pointer;
+  display: flex;
 }
 
 .video-item > .content {
-  max-width: 320px;
+  align-self: center;
 }
-
